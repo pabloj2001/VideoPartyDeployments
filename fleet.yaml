@@ -28,7 +28,6 @@ spec:
           containers:
           - name: video-party
             image: gcr.io/video-party-291718/video-party-server:0.1
-            imageID: docker-pullable://gcr.io/video-party-291718/video-party-server@sha256:e12e91d1a1c43b71b5b9f072b1ba122bc1a3dc2e9b57a087dcf60ee360075452
             resources:
               requests:
                 memory: "64Mi"
